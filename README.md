@@ -38,5 +38,30 @@ This project implements a robust authentication workflow including:
 
 ## .env.sample file 
 
+# ========== Server ==========
+PORT=4000
+NODE_ENV="development"
+
+# ========== Database ==========
+# Replace with your MongoDB connection string
+MONGO_URI=""
+
+# ========== JWT ==========
+# Secret key for signing JWTs
+JWT_SECRET=""
+
+# ========== Email ==========
+# Email credentials for Nodemailer
+EMAIL=""
+PASSWORD=""
+
+# ========== Client ==========
+# URL where your frontend app runs locally
+CLIENT_URL=http://localhost:5173
+
+# ========== Vite ==========
+# API base URL for frontend (Vite uses VITE_ prefix)
+VITE_API_URL=""
+
 
 
